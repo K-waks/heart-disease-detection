@@ -65,7 +65,7 @@
                 width: 800px;
                 text-align: centre;
                 display: none;">
-        {% if patient.target == "No heart disease" %}
+        {% if patient.target == "No Heart Disease" %}
             <p>Based on these symptoms, system's prediction on heart disease diagnosis is:</p>
             <span class="bg-success text-warning mt-1 p-2" style="font-weight:bold">{{ patient.target }}</span>
         {% else %}
@@ -81,14 +81,5 @@
        href="{% url 'PatientDeleteView' pk=patient.id %}">Delete</a>
     <br>
     <br>
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-      }
-    </script>
+    
 {% endblock %}

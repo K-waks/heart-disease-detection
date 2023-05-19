@@ -10,6 +10,16 @@
     {% endblock index_css %}
     {% block title %}
     {% endblock title %}
+    <script defer>
+      function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
@@ -33,7 +43,7 @@
       {% block content %}{% endblock %}
     </main>
     <footer class="my-5 text-center container">
-      <small>Copyright 2022 | CSC 317 group | 2022</small>
+      <small>Copyright 2023 | CSC 317 | 2023</small>
     </footer>
   </body>
 </html>

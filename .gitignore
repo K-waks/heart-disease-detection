@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+.tmp
+npm-debug.log
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+myportfolio/localsettings.py
+
+db.sqlite3
+
+static/

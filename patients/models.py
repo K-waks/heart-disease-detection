@@ -15,7 +15,7 @@ class Patient(models.Model):
     exang = models.CharField(max_length=50)
     oldpeak = models.FloatField()
     slope = models.CharField(max_length=50)
-    ca = models.SmallIntegerField()
+    ca = models.CharField(max_length=50)
     thal = models.CharField(max_length=50)
     target = models.CharField(max_length=50)
 
