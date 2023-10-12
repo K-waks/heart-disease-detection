@@ -2,6 +2,10 @@
 ##### **<center>Category: Machine Learning Algorithms</center>**
 ##### **<center>ML Tool: Scikit-learn</center>**
 
+## 
+This is a django app that can be added in the INSTALLED_APPS list in your django project settings.py.
+Made it an app so that I could add it in my website portfolio
+
 ## Summary
 A Django web app onto which a machine learning model for detecting heart disease has been deployed so as to provide clinicians with a tool to aid in the early diagnosis of cardiac issues. As a result, it will be simpler to successfully treat patients and prevent negative consequences.
 

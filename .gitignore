@@ -6,7 +6,6 @@ npm-debug.log
 __pycache__/
 *.py[cod]
 *$py.class
-
+README.md
 db.sqlite3
-
 private.py
