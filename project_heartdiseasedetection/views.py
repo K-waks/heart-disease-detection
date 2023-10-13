@@ -86,7 +86,7 @@ def new_patient(request):
             #########################################
 
             classifier = pickle.load(
-                open("project_heartdiseasedetection\model\heart_attk_pred.pkl", "rb")
+                open("project_heartdiseasedetection/model/heart_attk_pred.pkl", "rb")
             )
             symptoms = {}
             symptoms["age"] = int(filled_form.cleaned_data["age"])
